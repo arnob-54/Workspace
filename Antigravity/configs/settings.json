@@ -1,0 +1,16 @@
+{
+  "agent_name": "Antigravity",
+  "version": "1.0.0",
+  "default_model": "gemini-3.8-flash",
+  "sync_enabled": true,
+  "triggers": {
+    "update_files": "protocols/update_files.md",
+    "sync_mode": "active_checkpoint",
+    "checkpoint_interval_minutes": 10,
+    "run_when_idle": false
+  },
+  "memory_path": "memory/",
+  "tasks_path": "tasks/",
+  "sessions_path": "sessions/",
+  "protocols_path": "protocols/"
+}

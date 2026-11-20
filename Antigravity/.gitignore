@@ -1,0 +1,17 @@
+# Ignore sensitive files, secrets, and caches
+*.key
+*.pem
+*.token
+*.env
+*.env.*
+!.env.example
+
+# Temporary and local scratch files
+scratch/
+tmp/
+*.tmp
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
