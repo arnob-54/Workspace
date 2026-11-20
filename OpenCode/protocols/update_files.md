@@ -58,7 +58,7 @@ Only `~/Public/Agents/OpenCode/`. Other agents' folders
 3. What changed (timestamps, decisions, session and worklog entries).
 4. Affirmation: "All files in the OpenCode workspace are up to date."
 
-**Last executed:** 2026-11-19 23:01:54 +06:00 (Asia/Dhaka) — command defined;
-initial run performed across all workspace files.
-**Last revised:** 2026-11-19 23:09:35 +06:00 (Asia/Dhaka) — cross-reference to
-the session-scoped `auto-update` protocol added.
+**Last executed:** 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — full workspace
+refresh; profile re-verified; queues checked; report delivered to Arnob.
+**Last revised:** 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — execution record
+updated; protocol rules unchanged.

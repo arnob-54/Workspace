@@ -30,5 +30,5 @@ background agent session. Nothing runs when there is no active session.
 Silent by default; a brief `Files auto-updated at <time>` line when useful.
 A full report is given only when Arnob issues the `Update-files` command.
 
-**Last checkpoint:** 2026-11-19 23:09:35 +06:00 (Asia/Dhaka) — protocol defined
-and first session checkpoint recorded.
+**Last checkpoint:** 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files`
+command issued by Arnob; full refresh run and report delivered.

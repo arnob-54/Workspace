@@ -2,7 +2,8 @@
 
 **Status:** skeleton implemented 2026-11-19; `Update-files` command defined
 23:01:54; session-scoped auto-update defined 23:09:35 (no scheduler installed);
-remote repo setup pending.
+remote sync completed by Antigravity on 2026-11-20; latest `Update-files` run
+2026-11-20 12:13:51 +06:00.
 
 ## Goal
 
@@ -69,10 +70,11 @@ A centralized, file-based agentic system shared by Arnob's agents:
     conventions in 3–5 plus usage rules for agents.
 11. **Database** — `database/`: structured data (`tasks.json`, `jobs.json`),
     created when needed.
-12. **Sync** — `~/Public/Agents` is a git repo. Pull before starting work that
-    depends on others; commit + push when done. Commit messages start with
-    `[agent-id]` to mark the author. Remote (GitHub/GitLab) setup pending —
-    Arnob to provide the repo URL.
+12. **Sync** — `~/Public/Agents` is a git repo on branch `main`, remote
+    `https://github.com/arnob-54/Workspace.git` (added and pushed by
+    Antigravity 2026-11-20). Pull before starting work that depends on
+    others; commit + push when done. Commit messages start with `[agent-id]`
+    to mark the author.
 13. **Command `Update-files`** — defined 2026-11-19 23:01:54 +06:00. On the
     trigger, refresh every workspace file with real dates/timestamps and
     details, then report/affirm. See
@@ -84,4 +86,5 @@ A centralized, file-based agentic system shared by Arnob's agents:
     `work_history/auto_update.log`. See
     [protocols/auto_update.md](../protocols/auto_update.md).
 
-**Last updated:** 2026-11-19 23:09:35 +06:00 (Asia/Dhaka) — session auto-update added.
+**Last updated:** 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run;
+sync status corrected to reflect the live GitHub remote.

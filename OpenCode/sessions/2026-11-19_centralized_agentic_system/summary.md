@@ -1,4 +1,4 @@
-# Session Summary — 2026-11-19
+# Session Summary — 2026-11-19 (ongoing)
 
 - **Agent:** OpenCode
 - **User:** Arnob
@@ -24,12 +24,16 @@
     session-scoped auto-update: refresh files at checkpoints only while we're
     actively working. Protocol at `protocols/auto_update.md`; checkpoints log
     at `work_history/auto_update.log`. No scheduler installed.
+  - 2026-11-20 10:26:13 +06:00 — Arnob asked OpenCode to fix two audit findings:
+    a `.gitignore` exception so `OpenCode/work_history/auto_update.log` is
+    tracked/synced, and Antigravity's broken profile link
+    (`../../Original_User/profile.md`). OpenCode's contribution is attributed in
+    `work_history/worklog.md`, Antigravity's changelog and the `[opencode]`
+    commit message.
+  - 2026-11-20 12:13:51 +06:00 — Arnob issued `Update-files`. OpenCode
+    re-verified the canonical profile, confirmed both queues empty, refreshed
+    every workspace file with real timestamps/details, appended a checkpoint,
+    committed/pushed with `[opencode]` attribution and delivered the report.
 - **Not yet done:** no live test of the message/task conventions yet (git
   remote was added and pushed by Antigravity on 2026-11-20).
-- 2026-11-20 10:26:13 +06:00 — Arnob asked OpenCode to fix two audit findings:
-  a `.gitignore` exception so `OpenCode/work_history/auto_update.log` is
-  tracked/synced, and Antigravity's broken profile link
-  (`../../Original_User/profile.md`). OpenCode's contribution is attributed in
-  `work_history/worklog.md`, Antigravity's changelog and the `[opencode]`
-  commit message.
-- **Last updated:** 2026-11-20 10:26:13 +06:00 (Asia/Dhaka).
+- **Last updated:** 2026-11-20 12:13:51 +06:00 (Asia/Dhaka).

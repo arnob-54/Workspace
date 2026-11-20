@@ -37,5 +37,5 @@ When Arnob says `Update-files`, follow
 [`protocols/update_files.md`](protocols/update_files.md). During active work,
 follow [`protocols/auto_update.md`](protocols/auto_update.md).
 
-**Last updated:** 2026-11-19 23:09:35 +06:00 (Asia/Dhaka) — added the
-session-scoped `auto-update` protocol; refreshed pointers.
+**Last updated:** 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run;
+pointers verified, no structural changes.

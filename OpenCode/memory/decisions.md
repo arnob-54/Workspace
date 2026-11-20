@@ -1,6 +1,6 @@
 # Decisions — OpenCode
 
-Last updated: 2026-11-19 23:09:35 +06:00 (Asia/Dhaka) — session auto-update added.
+Last updated: 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 - 2026-11-19: Communication is file-based (messages + tasks under
   `agents/`); no central broker — agents scan folders and handle what is
@@ -17,3 +17,7 @@ Last updated: 2026-11-19 23:09:35 +06:00 (Asia/Dhaka) — session auto-update ad
   Rationale: Arnob wants files refreshed only while we're actively working
   together — no cron/systemd timer, daemon or token-burning background runs.
   See [protocols/auto_update.md](../protocols/auto_update.md).
+- 2026-11-20 12:13:51 +06:00: Full `Update-files` runs are committed and
+  pushed with `[opencode]` attribution. Rationale: the shared repo is now
+  synced with GitHub, so other agents should see refreshed state and who did
+  the work.

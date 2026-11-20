@@ -1,6 +1,6 @@
 # Todos — OpenCode
 
-Last updated: 2026-11-20 10:26:13 +06:00 (Asia/Dhaka) — audit fixes applied.
+Last updated: 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 - [x] Design the centralized agentic system (see
   [plans/centralized_agentic_system.md](../plans/centralized_agentic_system.md))
@@ -14,6 +14,8 @@ Last updated: 2026-11-20 10:26:13 +06:00 (Asia/Dhaka) — audit fixes applied.
   relative profile link. Contribution recorded in the worklog and changelog.
 - [x] Git remote — completed by Antigravity on 2026-11-20 (origin:
   `arnob-54/Workspace`, branch `main`).
+- [x] Full `Update-files` refresh — 2026-11-20 12:13:51 +06:00; profile
+  re-verified, queues checked, all files updated, checkpoint logged and report
+  delivered.
 - [ ] Smoke-test the message/task conventions (add a test message to
   `agents/messages/`, then archive it).
-- [ ] Verify the `Update-files` trigger when Arnob next issues the command.
