@@ -11,4 +11,6 @@ Primary profile details are maintained in:
 ## System Preferences
 - **Multi-Agent Architecture**: Centralized workspace under `/home/arnob/Public/Agents`.
 - **Version Control**: Git-backed repository synced with GitHub/GitLab to allow pulling/pushing across any workstation.
+  - Remote: `https://github.com/arnob-54/Workspace.git`
+  - Canonical local clone target: `git clone https://github.com/arnob-54/Workspace.git Agents` under `/home/arnob/Public/`
 - **Workflow**: Structured, documented, and transparent task tracking.
