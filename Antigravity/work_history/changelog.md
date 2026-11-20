@@ -1,5 +1,14 @@
 # Changelog & Work History
 
+## [2026-11-20]
+### Remote Synchronization to GitHub
+- Created root [.gitignore](../../.gitignore) and root [README.md](../../README.md).
+- Switched default branch to `main`.
+- Staged all files across `Original_User/`, `Antigravity/`, and `OpenCode/` and created initial commit `a5489e3`.
+- Added remote origin `https://github.com/arnob-54/Workspace.git`.
+- Pushed `main` branch to upstream remote (`arnob-54/Workspace`).
+- Logged Session 02 in `sessions/2026-11-20_session-02.md`.
+
 ## [2026-11-19]
 ### Initialized Antigravity Workspace
 - Scaffolded core folder hierarchy: `configs/`, `protocols/`, `memory/`, `sessions/`, `tasks/`, `work_history/`.
