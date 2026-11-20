@@ -20,3 +20,6 @@
   investigated but nothing was installed. Definition lives in
   `protocols/auto_update.md`; first checkpoint in
   `work_history/auto_update.log`.
+- 2026-11-20 10:26:13 +06:00 — OpenCode fixed the two audit findings at
+  Arnob's request and made sure its contribution was recorded (worklog,
+  changelog, `[opencode]` commit) and synced to GitHub.

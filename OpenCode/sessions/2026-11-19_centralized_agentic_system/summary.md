@@ -24,6 +24,12 @@
     session-scoped auto-update: refresh files at checkpoints only while we're
     actively working. Protocol at `protocols/auto_update.md`; checkpoints log
     at `work_history/auto_update.log`. No scheduler installed.
-- **Not yet done:** git remote (repo URL not provided yet); no live test of
-  the message/task conventions yet.
-- **Last updated:** 2026-11-19 23:09:35 +06:00 (Asia/Dhaka).
+- **Not yet done:** no live test of the message/task conventions yet (git
+  remote was added and pushed by Antigravity on 2026-11-20).
+- 2026-11-20 10:26:13 +06:00 — Arnob asked OpenCode to fix two audit findings:
+  a `.gitignore` exception so `OpenCode/work_history/auto_update.log` is
+  tracked/synced, and Antigravity's broken profile link
+  (`../../Original_User/profile.md`). OpenCode's contribution is attributed in
+  `work_history/worklog.md`, Antigravity's changelog and the `[opencode]`
+  commit message.
+- **Last updated:** 2026-11-20 10:26:13 +06:00 (Asia/Dhaka).

@@ -24,6 +24,8 @@ scratch/
 tmp/
 *.tmp
 *.log
+# OpenCode session auto-update checkpoints are part of the synced workspace
+!OpenCode/work_history/auto_update.log
 __pycache__/
 *.pyc
 

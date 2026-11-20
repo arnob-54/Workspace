@@ -1,6 +1,6 @@
 # Work Log — Arnob's Agents
 
-Last updated: 2026-11-19 23:09:35 +06:00 (Asia/Dhaka)
+Last updated: 2026-11-20 10:26:13 +06:00 (Asia/Dhaka)
 
 ## 2026-11-19
 
@@ -28,3 +28,18 @@ Last updated: 2026-11-19 23:09:35 +06:00 (Asia/Dhaka)
   README, index, communication/update protocols, decisions, lessons, plan,
   todos and the active session's summary/notes/transcript. No cron job,
   systemd timer or daemon was installed.
+
+## 2026-11-20
+
+- **[opencode] 10:26:13 +06:00** — Arnob asked OpenCode to fix the two issues
+  found in the audit, with attribution:
+  1. Added a `.gitignore` exception
+     (`!OpenCode/work_history/auto_update.log`) so this checkpoint log is
+     tracked and synced with `arnob-54/Workspace` instead of being ignored by
+     `*.log`.
+  2. Corrected the broken relative profile link in
+     `Antigravity/memory/user_preferences.md` from
+     `../Original_User/profile.md` to `../../Original_User/profile.md`, and
+     noted the OpenCode contribution in `Antigravity/work_history/changelog.md`.
+  Changes committed to `main` with an `[opencode]`-prefixed message and pushed
+  to `origin/main`.

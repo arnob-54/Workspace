@@ -32,3 +32,9 @@
 - **OpenCode:** checked scheduler options (cron/systemd/user timer), installed
   none; wrote `protocols/auto_update.md` and `work_history/auto_update.log`,
   refreshed the affected files, and confirmed the session-scoped behavior.
+- **Arnob (2026-11-20 10:26:13 +06:00):** "Okay fix these two. [Make sure to
+  mention your contribution.]"
+- **OpenCode:** applied both fixes — `.gitignore` exception for
+  `work_history/auto_update.log`, and the corrected relative profile link in
+  `Antigravity/memory/user_preferences.md` — attributed the work to OpenCode
+  in the worklog/changelog/commit, and synced it to `origin/main`.

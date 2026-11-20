@@ -2,7 +2,7 @@
 
 ## Identity Reference
 Primary profile details are maintained in:
-`../Original_User/profile.md`
+`../../Original_User/profile.md`
 
 - **Name**: Md. Aminul Islam Ornab (Arnob Miah / Arnob)
 - **GitHub**: [arnob-54](https://github.com/arnob-54)

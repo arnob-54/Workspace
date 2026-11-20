@@ -9,6 +9,7 @@
 - Pushed `main` branch to upstream remote (`arnob-54/Workspace`).
 - Logged Session 02 in `sessions/2026-11-20_session-02.md`.
 - Processed `Update-files` trigger: updated `memory/user_preferences.md` with repository restoration & cloning instructions, and synced session status (2026-11-20 10:13:18 +06:00).
+- **OpenCode contribution (2026-11-20 10:26:13 +06:00):** corrected the relative profile link in `memory/user_preferences.md` (`../Original_User/profile.md` → `../../Original_User/profile.md`), at Arnob's request.
 
 ## [2026-11-19]
 ### Initialized Antigravity Workspace
