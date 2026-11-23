@@ -45,8 +45,10 @@ This repository serves as the unified coordination hub, persistent memory store,
     ├── protocols/             # Communication, file updates, and auto-update rules
     ├── sessions/              # Session logs, summaries, and transcripts
     ├── settings/              # OpenCode runtime settings
+    ├── skills/                # Reusable skills/runbooks (OpenCode V2 discovery notes)
+    ├── plugins/               # Plugin records and install/configuration notes
     ├── todos/                 # OpenCode task lists and progress trackers
-    └── work_history/          # Worklogs and audit history
+    └── work_history/          # Worklogs and auto-update checkpoints
 ```
 
 ---
@@ -61,15 +63,23 @@ All agents must reference [Original_User/profile.md](Original_User/profile.md) f
 - Cross-agent directories are treated as read-only unless specifically directed to write to shared coordination files.
 
 ### 3. File Synchronization Trigger (`update-files`)
-Whenever instructed with `update-files`, the active agent:
-1. Stamps the current date and local time (`Asia/Dhaka`, UTC+6).
-2. Appends conversation and task summaries to `sessions/`.
-3. Updates `tasks/active_plan.md` and `tasks/todo.md`.
-4. Records changes into `work_history/changelog.md`.
-5. Stages, commits, and pushes clean state updates to GitHub.
+Whenever instructed with `update-files` (case-insensitive), the active agent
+refreshes its own workspace with real dates, local time (`Asia/Dhaka`, UTC+6)
+and details, then stages, commits and pushes to GitHub with `[<agent-id>]`
+attribution. Each agent keeps its own record layout, so the concrete files
+differ:
+
+| Agent | Sessions / summary | Plan & tasks | History |
+| --- | --- | --- | --- |
+| `Antigravity/` | `sessions/` | `tasks/active_plan.md`, `tasks/todo.md` | `work_history/changelog.md` |
+| `OpenCode/` | `sessions/index.md`, `sessions/<session>/{summary,notes,transcript}.md` | `plans/centralized_agentic_system.md`, `todos/index.md` | `work_history/worklog.md`, `work_history/auto_update.log` |
+
+Common to both: re-verify [Original_User/profile.md](Original_User/profile.md),
+stamp the time from the system clock (never estimate it), refresh the per-agent
+README/index, and deliver a report/affirmation to Arnob.
 
 ### 4. Zero-Background Idle State
-Background daemons and polling loops remain dormant when not actively conversing with the user. State synchronization occurs at natural checkpoints during active sessions or via explicit manual triggers.
+Background daemons and polling loops remain dormant when not actively conversing with the user. State synchronization occurs at natural checkpoints during active sessions or via explicit manual triggers. OpenCode's session-scoped rule is defined in [`OpenCode/protocols/auto_update.md`](OpenCode/protocols/auto_update.md); no cron job, systemd timer or daemon is installed.
 
 ### 5. Secret & Credential Protection
 The root [.gitignore](.gitignore) strictly excludes `.env`, `*.key`, `*.token`, `scratch/`, and temporary build artifacts to ensure no credentials or sensitive tokens are ever committed to version control.
@@ -93,3 +103,10 @@ cd Agents
 
 > [!NOTE]
 > Linux file paths are case-sensitive. Always clone into `/home/arnob/Public/Agents` to maintain full compatibility across internal references and relative links.
+
+---
+
+**Last updated:** 2026-11-23 22:36:15 +06:00 (Asia/Dhaka) — OpenCode added the
+missing `skills/` and `plugins/` entries to the OpenCode tree, documented the
+agent-specific `update-files` file sets, and linked the session-scoped
+auto-update protocol. Contribution: `[opencode]`.
