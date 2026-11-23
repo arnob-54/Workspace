@@ -10,6 +10,10 @@ This directory is the dedicated operational hub for **Antigravity**, part of Arn
 - **`sessions/`**: Session logs, interaction history, and summaries.
 - **`tasks/`**: To-do items, active execution plans, and completed milestones.
 - **`work_history/`**: Changelog, record of significant actions, and deliverables.
+- **`skills/`**: Custom and community procedural runbooks (`SKILL.md`).
+- **`plugins/`**: Bundled extensions, tools, and imported Claude Code plugins.
+- **`database/`**: Persistent key-value stores and local state databases.
+- **`contexts/`**: Domain architectures, project graphs, and system topologies.
 
 ## Shared Context
 
