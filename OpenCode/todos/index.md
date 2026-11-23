@@ -1,6 +1,6 @@
 # Todos — OpenCode
 
-Last updated: 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run.
+Last updated: 2026-11-23 23:20:38 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 - [x] Design the centralized agentic system (see
   [plans/centralized_agentic_system.md](../plans/centralized_agentic_system.md))
@@ -29,5 +29,12 @@ Last updated: 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run.
 - [x] Full `Update-files` refresh — 2026-11-23 22:43:14 +06:00; profile
   re-verified (7/7 fields), both queues checked (0/0), all files updated,
   checkpoints logged, committed/pushed and report delivered.
+- [x] Document Claude Code compatibility and MCP support — 2026-11-23 23:20:38
+  +06:00; checked official V2 docs, added an MCP section to
+  `plugins/README.md`, recorded the decision and lesson with `[opencode]`
+  attribution.
+- [x] Full `Update-files` refresh — 2026-11-23 23:20:38 +06:00; profile
+  re-verified (7/7 fields), both queues checked (0/0), all files updated,
+  checkpoint logged, committed/pushed and report delivered.
 - [ ] Smoke-test the message/task conventions (add a test message to
   `agents/messages/`, then archive it).

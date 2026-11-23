@@ -1,7 +1,7 @@
 # Index — OpenCode
 
 Master index of the agentic workspace.
-**Last updated:** 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run.
+**Last updated:** 2026-11-23 23:20:38 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 ## Pointers
 
@@ -54,3 +54,7 @@ Master index of the agentic workspace.
 - 2026-11-23 22:43:14 +06:00 — Arnob issued `Update-files` again. OpenCode
   re-verified the profile (7/7), confirmed 0 messages/0 tasks, refreshed every
   workspace file, logged checkpoints and synced with `[opencode]` attribution.
+- 2026-11-23 23:20:38 +06:00 — Arnob asked about Claude Code compatibility.
+  OpenCode checked the official V2 docs, added an MCP section to
+  `plugins/README.md`, recorded the findings in decisions/lessons/session
+  records, and ran a full `Update-files` refresh with `[opencode]` attribution.

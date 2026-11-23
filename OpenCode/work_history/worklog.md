@@ -1,6 +1,6 @@
 # Work Log — Arnob's Agents
 
-Last updated: 2026-11-23 22:43:14 +06:00 (Asia/Dhaka)
+Last updated: 2026-11-23 23:20:38 +06:00 (Asia/Dhaka)
 
 ## 2026-11-19
 
@@ -74,3 +74,12 @@ Last updated: 2026-11-23 22:43:14 +06:00 (Asia/Dhaka)
   `Original_User/profile.md` (all seven fields match); confirmed 0 messages and
   0 tasks in the queues; appended checkpoints to `auto_update.log`; committed
   and pushed with `[opencode]` attribution. Report/affirmation delivered.
+- **[opencode] 23:20:38 +06:00** — Arnob asked whether OpenCode supports Claude
+  Code's skills/plugins/MCP etc. OpenCode checked the official V2 docs and
+  answered: skills and `CLAUDE.md` carry over, MCP works but needs OpenCode's
+  `mcp.servers` config, and Claude Code plugins/commands/agents need porting.
+  Added an MCP section to `plugins/README.md`, recorded the compatibility
+  decision/lesson, refreshed all workspace files with real Dhaka timestamps,
+  re-verified the canonical profile (all seven fields match), confirmed 0
+  messages and 0 tasks, appended a checkpoint, and committed/pushed with
+  `[opencode]` attribution.

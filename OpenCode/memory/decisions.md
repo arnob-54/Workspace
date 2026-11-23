@@ -1,6 +1,6 @@
 # Decisions — OpenCode
 
-Last updated: 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run.
+Last updated: 2026-11-23 23:20:38 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 - 2026-11-19: Communication is file-based (messages + tasks under
   `agents/`); no central broker — agents scan folders and handle what is
@@ -29,3 +29,8 @@ Last updated: 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run.
   repo-level `README.md` as well as the OpenCode workspace. Rationale: the
   shared entry point must reflect the current structure for all agents, even
   though the normal `Update-files` scope is per-agent.
+- 2026-11-23 23:20:38 +06:00: Treat Claude Code compatibility as partial —
+  reuse skills and `CLAUDE.md`, re-register MCP servers in `mcp.servers`, and
+  port plugins/commands/agents to OpenCode formats. Rationale: the official V2
+  docs document skill and instruction fallbacks but no auto-import for Claude
+  Code plugin manifests or `.mcp.json`.

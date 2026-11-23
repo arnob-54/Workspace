@@ -34,5 +34,22 @@ plugin source. Claude Code **skills**, however, are discovered through
 This folder records plugins relevant to this workspace; to load one, install
 it with the CLI or configure it as described above.
 
-**Last updated:** 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run.
-Current state: 0 plugins recorded yet.
+## MCP servers (separate from plugins)
+
+OpenCode supports the Model Context Protocol directly. Official docs:
+https://opencode.ai/docs/mcp-servers/
+
+- Register a remote server with `opencode mcp add <name> --url <https-url>`, or
+  a local stdio server with `opencode mcp add <name> -- <command> ...`.
+- Configuration lives in `opencode.jsonc` under `mcp.servers` (add `--global`
+  to the CLI for global scope): `type: local` with `command`, `cwd` and
+  `environment`, or `type: remote` with `url`, `headers` and `oauth`.
+- Remote servers use OAuth by default; `/mcps` handles sign-in. MCP prompts
+  become `/<server>:<prompt>` commands, and resources are read through the
+  built-in resource tools.
+- Claude Code's `.mcp.json` is **not** documented as auto-imported. The same
+  MCP server can be reused, but its command/URL/headers must be registered in
+  OpenCode's format.
+
+**Last updated:** 2026-11-23 23:20:38 +06:00 (Asia/Dhaka) — `Update-files` run
+with a new MCP section. Current state: 0 plugins recorded yet.

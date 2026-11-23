@@ -4,8 +4,9 @@
 23:01:54; session-scoped auto-update defined 23:09:35 (no scheduler installed);
 remote sync completed by Antigravity on 2026-11-20; skills/plugins scaffolds
 added 2026-11-23 20:42:26 +06:00; root README updated 2026-11-23 22:36:15
-+06:00; latest `Update-files` run 2026-11-23 22:43:14 +06:00 (profile
-re-verified, both queues empty, changes synced).
++06:00; Claude Code compatibility documented 2026-11-23 23:20:38 +06:00;
+latest `Update-files` run 2026-11-23 23:20:38 +06:00 (profile re-verified,
+both queues empty, changes synced).
 
 ## Goal
 
@@ -96,6 +97,11 @@ A centralized, file-based agentic system shared by Arnob's agents:
     request: OpenCode's `skills/`/`plugins/`, agent-specific `update-files`
     file sets and the session-scoped auto-update protocol are documented in
     `~/Public/Agents/README.md`.
+17. **Claude Code compatibility / MCP** — documented 2026-11-23 23:20:38
+    +06:00 in `plugins/README.md` after checking the official V2 docs:
+    skills and `CLAUDE.md` carry over; MCP servers are supported via
+    `mcp.servers`/`opencode mcp add` but `.mcp.json` is not auto-imported;
+    Claude Code plugins/commands/agents need porting.
 
-**Last updated:** 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run;
+**Last updated:** 2026-11-23 23:20:38 +06:00 (Asia/Dhaka) — `Update-files` run;
 status refreshed, profile re-verified, both queues empty.

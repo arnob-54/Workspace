@@ -6,4 +6,4 @@ Settings and preferences.
 - Auto-update mode: session-scoped checkpoints (no background timer/scheduler).
 - Per-agent settings can live in the agent's own folder.
 
-**Last updated:** 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run; settings unchanged.
+**Last updated:** 2026-11-23 23:20:38 +06:00 (Asia/Dhaka) — `Update-files` run; settings unchanged.

@@ -20,3 +20,7 @@ at Arnob's request with OpenCode contribution attributed.
 2026-11-23 22:43:14 +06:00 — Arnob issued `Update-files`; full workspace
 refresh, profile re-verified, both queues checked (0/0), report delivered and
 changes synced to origin/main.
+2026-11-23 23:20:38 +06:00 — Arnob issued `Update-files`; checked Claude Code
+compatibility against the official V2 docs, added an MCP section to
+`plugins/README.md`, refreshed all files and synced with `[opencode]`
+attribution.

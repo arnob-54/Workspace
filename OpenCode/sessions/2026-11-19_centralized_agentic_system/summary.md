@@ -50,6 +50,12 @@
 - 2026-11-23 22:43:14 +06:00 — Arnob issued `Update-files` again. OpenCode
   re-verified the profile, confirmed both queues empty, refreshed all workspace
   files, logged a checkpoint and synced with `[opencode]` attribution.
+- 2026-11-23 23:20:38 +06:00 — Arnob had asked whether OpenCode supports Claude
+  Code's skills/plugins/MCP etc. OpenCode checked the official V2 docs and
+  recorded the compatibility matrix: skills and `CLAUDE.md` carry over, MCP
+  servers work but need OpenCode's `mcp.servers` config, and Claude Code
+  plugins/commands/agents need porting. Added an MCP section to
+  `plugins/README.md` during this `Update-files` run.
 - **Not yet done:** no live test of the message/task conventions yet (git
   remote was added and pushed by Antigravity on 2026-11-20).
-- **Last updated:** 2026-11-23 22:43:14 +06:00 (Asia/Dhaka).
+- **Last updated:** 2026-11-23 23:20:38 +06:00 (Asia/Dhaka).

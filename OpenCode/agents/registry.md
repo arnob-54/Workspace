@@ -1,6 +1,6 @@
 # Agent Registry
 
-Last updated: 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run.
+Last updated: 2026-11-23 23:20:38 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 | Agent ID | Name | Workspace | Purpose |
 | --- | --- | --- | --- |
@@ -23,3 +23,6 @@ Change log:
   role description remains to be documented by that agent.
 - 2026-11-23 22:43:14 +06:00 — `Update-files` run; roster unchanged (3
   entries). Root README now documents both agents' `update-files` file sets.
+- 2026-11-23 23:20:38 +06:00 — `Update-files` run; roster unchanged (3
+  entries). Claude Code compatibility and MCP support now documented in
+  `plugins/README.md`.

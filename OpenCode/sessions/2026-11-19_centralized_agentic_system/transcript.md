@@ -60,3 +60,11 @@
 - **OpenCode:** ran the full protocol again — refreshed all workspace files with
   real timestamps/details, re-verified the profile, checked both queues, logged
   a checkpoint and committed/pushed with `[opencode]` attribution.
+- **Arnob:** "Do you support claude code's skills/plugins/mcp etc?"
+- **OpenCode:** answered from the official V2 docs — skills and `CLAUDE.md`
+  yes, MCP at the protocol level but with OpenCode's own config format, plugins
+  and Claude Code commands/agents not directly; documented the MCP details and
+  recorded the findings during the 23:20:38 `Update-files` run.
+- **Arnob (2026-11-23 23:20:38 +06:00):** "update-files"
+- **OpenCode:** ran the full protocol, including the new MCP section in
+  `plugins/README.md`, and synced everything with `[opencode]` attribution.

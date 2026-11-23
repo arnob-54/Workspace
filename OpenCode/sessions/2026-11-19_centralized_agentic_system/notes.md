@@ -40,3 +40,10 @@
   `README.md` with `[opencode]` attribution.
 - 2026-11-23 22:43:14 +06:00 — Arnob issued `Update-files`; profile re-verified
   (7/7), both queues 0/0, git in sync with origin/main before the run.
+- 2026-11-23 23:20:38 +06:00 — Claude Code compatibility checked against the
+  official V2 docs: `~/.claude/skills` and `.claude/skills` are discovered;
+  `CLAUDE.md` is a fallback for `AGENTS.md`; MCP is supported via
+  `mcp.servers`/`opencode mcp add` (no documented `.mcp.json` auto-import);
+  `.claude-plugin/plugin.json`, `.claude/commands/` and `.claude/agents/` have
+  no documented compatibility. Recorded in `plugins/README.md`, decisions and
+  lessons during this run.
