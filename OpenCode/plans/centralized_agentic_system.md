@@ -3,7 +3,8 @@
 **Status:** skeleton implemented 2026-11-19; `Update-files` command defined
 23:01:54; session-scoped auto-update defined 23:09:35 (no scheduler installed);
 remote sync completed by Antigravity on 2026-11-20; latest `Update-files` run
-2026-11-20 12:13:51 +06:00.
+2026-11-20 12:13:51 +06:00; skills/plugins scaffolds added 2026-11-23
+20:42:26 +06:00.
 
 ## Goal
 
@@ -38,7 +39,7 @@ A centralized, file-based agentic system shared by Arnob's agents:
 │   ├── plans/centralized_agentic_system.md
 │   ├── work_history/worklog.md, work_history/auto_update.log
 │   ├── todos/index.md
-│   └── scaffolds: contexts/, database/, configs/, settings/
+│   └── scaffolds: contexts/, database/, configs/, settings/, skills/, plugins/
 └── Original_User/profile.md    # Arnob's user profile (canonical user data)
 ```
 
@@ -85,6 +86,11 @@ A centralized, file-based agentic system shared by Arnob's agents:
     installed. Checkpoints are logged in
     `work_history/auto_update.log`. See
     [protocols/auto_update.md](../protocols/auto_update.md).
+15. **Skills & plugins** — added 2026-11-23 20:42:26 +06:00: `skills/` and
+    `plugins/` READMEs document OpenCode V2 skill discovery (including
+    `.claude/skills` compatibility) and plugin installation via
+    `opencode plugin add`. Official docs: `opencode.ai/docs/skills` and
+    `opencode.ai/docs/plugins`.
 
-**Last updated:** 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run;
-sync status corrected to reflect the live GitHub remote.
+**Last updated:** 2026-11-23 20:42:26 +06:00 (Asia/Dhaka) — skills/plugins
+scaffolds added.

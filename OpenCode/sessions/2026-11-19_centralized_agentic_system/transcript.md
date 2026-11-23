@@ -43,3 +43,7 @@
   timestamps/details, re-verified the canonical profile, checked both queues,
   logged a checkpoint, committed/pushed with `[opencode]` attribution and gave
   the report/affirmation.
+- **Arnob (2026-11-23 20:42:26 +06:00):** "Okay add those to you as well."
+- **OpenCode:** added `skills/README.md` and `plugins/README.md` with official
+  OpenCode V2 discovery/install rules, updated the related workspace files
+  and logged the checkpoint for attribution and sync.

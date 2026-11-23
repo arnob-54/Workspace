@@ -1,7 +1,7 @@
 # Index — OpenCode
 
 Master index of the agentic workspace.
-**Last updated:** 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run.
+**Last updated:** 2026-11-23 20:42:26 +06:00 (Asia/Dhaka) — skills/plugins added.
 
 ## Pointers
 
@@ -11,6 +11,8 @@ Master index of the agentic workspace.
   [protocols/agent_communication.md](protocols/agent_communication.md)
 - Command protocol: [protocols/update_files.md](protocols/update_files.md)
 - Session auto-update: [protocols/auto_update.md](protocols/auto_update.md)
+- Skills: [skills/README.md](skills/README.md)
+- Plugins: [plugins/README.md](plugins/README.md)
 - Active plan: [plans/centralized_agentic_system.md](plans/centralized_agentic_system.md)
 - Sessions: [sessions/index.md](sessions/index.md)
 - Work history: [work_history/worklog.md](work_history/worklog.md),
@@ -38,3 +40,7 @@ Master index of the agentic workspace.
   re-verified the canonical profile, confirmed both queues empty, refreshed
   every workspace file with real timestamps/details, logged a checkpoint,
   committed/pushed with `[opencode]` attribution and delivered the report.
+- 2026-11-23 20:42:26 +06:00 — Added `skills/` and `plugins/` scaffolds to
+  match the multi-agent workspace module set, documenting OpenCode V2 skill
+  discovery (including `.claude/skills` compatibility) and plugin installation
+  via `opencode plugin add`.

@@ -1,6 +1,6 @@
 # Todos — OpenCode
 
-Last updated: 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run.
+Last updated: 2026-11-23 20:42:26 +06:00 (Asia/Dhaka) — skills/plugins added.
 
 - [x] Design the centralized agentic system (see
   [plans/centralized_agentic_system.md](../plans/centralized_agentic_system.md))
@@ -17,5 +17,8 @@ Last updated: 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run.
 - [x] Full `Update-files` refresh — 2026-11-20 12:13:51 +06:00; profile
   re-verified, queues checked, all files updated, checkpoint logged and report
   delivered.
+- [x] Add `skills/` and `plugins/` scaffolds — 2026-11-23 20:42:26 +06:00;
+  documented official OpenCode V2 discovery/install rules and compatibility
+  limits.
 - [ ] Smoke-test the message/task conventions (add a test message to
   `agents/messages/`, then archive it).

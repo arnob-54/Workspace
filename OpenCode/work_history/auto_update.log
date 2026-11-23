@@ -10,3 +10,5 @@ auto-update enabled; first checkpoint recorded (files refreshed with details).
 profile link), with contribution attributed in worklog and changelog.
 2026-11-20 12:13:51 +06:00 — Arnob issued `Update-files`; full workspace
 refresh completed, report delivered and changes synced to origin/main.
+2026-11-23 20:42:26 +06:00 — session checkpoint: added `skills/` and `plugins/`
+scaffolds and refreshed the related workspace files.

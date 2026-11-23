@@ -26,3 +26,7 @@
 - 2026-11-20 12:13:51 +06:00 — Arnob issued `Update-files`; OpenCode refreshed
   every workspace file with the real Dhaka timestamp, re-verified the profile,
   confirmed 0 messages/0 tasks, and delivered the full report.
+- 2026-11-23 20:42:26 +06:00 — OpenCode V2 docs checked (skills, plugins,
+  Claude Code harness). Skills from `.claude/skills` are discovered; Claude
+  Code plugin manifests are not a documented OpenCode plugin source. Added
+  `skills/` and `plugins/` scaffolds with accurate notes.

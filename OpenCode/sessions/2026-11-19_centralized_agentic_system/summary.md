@@ -34,6 +34,11 @@
     re-verified the canonical profile, confirmed both queues empty, refreshed
     every workspace file with real timestamps/details, appended a checkpoint,
     committed/pushed with `[opencode]` attribution and delivered the report.
+- 2026-11-23 20:42:26 +06:00 — Arnob asked for the `skills/` and `plugins/`
+  folders added to Antigravity's workspace. OpenCode created both READMEs from
+  the official V2 docs (skill discovery including `.claude/skills`
+  compatibility; plugin CLI install; Claude Code plugin manifests not
+  supported) and updated the related workspace files.
 - **Not yet done:** no live test of the message/task conventions yet (git
   remote was added and pushed by Antigravity on 2026-11-20).
-- **Last updated:** 2026-11-20 12:13:51 +06:00 (Asia/Dhaka).
+- **Last updated:** 2026-11-23 20:42:26 +06:00 (Asia/Dhaka).

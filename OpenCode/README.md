@@ -29,6 +29,10 @@ This folder is this agent's workspace: **OpenCode**.
 - [`work_history/`](work_history/) — work logs:
   [`worklog.md`](work_history/worklog.md),
   [`auto_update.log`](work_history/auto_update.log)
+- [`skills/`](skills/) — reusable skills/runbooks:
+  [`README.md`](skills/README.md)
+- [`plugins/`](plugins/) — plugin records and configuration notes:
+  [`README.md`](plugins/README.md)
 - [`todos/`](todos/) — to-do lists: [`index.md`](todos/index.md)
 
 Start by reading [`index.md`](index.md) and
@@ -37,5 +41,5 @@ When Arnob says `Update-files`, follow
 [`protocols/update_files.md`](protocols/update_files.md). During active work,
 follow [`protocols/auto_update.md`](protocols/auto_update.md).
 
-**Last updated:** 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run;
-pointers verified, no structural changes.
+**Last updated:** 2026-11-23 20:42:26 +06:00 (Asia/Dhaka) — added `skills/` and
+`plugins/` scaffolds; refreshed pointers.
