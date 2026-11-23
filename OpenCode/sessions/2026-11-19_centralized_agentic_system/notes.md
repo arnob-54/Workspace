@@ -34,3 +34,9 @@
   canonical profile and both queue folders, confirmed 7/7 profile fields match
   and 0 messages / 0 tasks, then refreshed every workspace file with the real
   Dhaka timestamp and a dated worklog entry.
+- 2026-11-23 22:36:15 +06:00 — Arnob asked for the whole-repo README update.
+  OpenCode re-read the root README first because Antigravity had just
+  overwritten it (commits 6664f67 and 5fc6e9c); edits stayed scoped to
+  `README.md` with `[opencode]` attribution.
+- 2026-11-23 22:43:14 +06:00 — Arnob issued `Update-files`; profile re-verified
+  (7/7), both queues 0/0, git in sync with origin/main before the run.

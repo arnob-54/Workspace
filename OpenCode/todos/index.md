@@ -1,6 +1,6 @@
 # Todos — OpenCode
 
-Last updated: 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run.
+Last updated: 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 - [x] Design the centralized agentic system (see
   [plans/centralized_agentic_system.md](../plans/centralized_agentic_system.md))
@@ -23,5 +23,11 @@ Last updated: 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run.
 - [x] Full `Update-files` refresh — 2026-11-23 20:44:23 +06:00; profile
   re-verified (7/7 fields), both queues checked (0/0), all files updated,
   checkpoint logged, committed/pushed and report delivered.
+- [x] Repo-level `README.md` update — 2026-11-23 22:36:15 +06:00; OpenCode
+  contribution attributed in the footer and the `[opencode]` commit, pushed to
+  `origin/main`.
+- [x] Full `Update-files` refresh — 2026-11-23 22:43:14 +06:00; profile
+  re-verified (7/7 fields), both queues checked (0/0), all files updated,
+  checkpoints logged, committed/pushed and report delivered.
 - [ ] Smoke-test the message/task conventions (add a test message to
   `agents/messages/`, then archive it).

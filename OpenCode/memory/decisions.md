@@ -1,6 +1,6 @@
 # Decisions — OpenCode
 
-Last updated: 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run.
+Last updated: 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 - 2026-11-19: Communication is file-based (messages + tasks under
   `agents/`); no central broker — agents scan folders and handle what is
@@ -25,3 +25,7 @@ Last updated: 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run.
   agents (OpenCode's `skills/` and `plugins/` added 20:42:26) while retaining
   OpenCode V2-specific facts. Rationale: consistency in the shared repo helps
   other agents; accuracy about tool compatibility comes from official docs.
+- 2026-11-23 22:43:14 +06:00: When Arnob explicitly requests it, update the
+  repo-level `README.md` as well as the OpenCode workspace. Rationale: the
+  shared entry point must reflect the current structure for all agents, even
+  though the normal `Update-files` scope is per-agent.

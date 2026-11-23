@@ -43,6 +43,13 @@
   the canonical profile, confirmed both queues empty, refreshed every workspace
   file with the real Dhaka timestamp, appended a checkpoint, and committed and
   pushed with `[opencode]` attribution.
+- 2026-11-23 22:36:15 +06:00 — Arnob asked OpenCode to update the repo-level
+  README. OpenCode filled the OpenCode tree gaps, documented both agents'
+  `update-files` layouts, linked the session-scoped auto-update protocol and
+  pushed with `[opencode]` attribution.
+- 2026-11-23 22:43:14 +06:00 — Arnob issued `Update-files` again. OpenCode
+  re-verified the profile, confirmed both queues empty, refreshed all workspace
+  files, logged a checkpoint and synced with `[opencode]` attribution.
 - **Not yet done:** no live test of the message/task conventions yet (git
   remote was added and pushed by Antigravity on 2026-11-20).
-- **Last updated:** 2026-11-23 20:44:23 +06:00 (Asia/Dhaka).
+- **Last updated:** 2026-11-23 22:43:14 +06:00 (Asia/Dhaka).

@@ -30,5 +30,5 @@ Notes:
   under `.opencode/skills/` in this workspace or add `"./skills"` to `skills`
   in an applicable `opencode.jsonc`.
 
-**Last updated:** 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run.
+**Last updated:** 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run.
 Current state: 0 workspace skills added yet.

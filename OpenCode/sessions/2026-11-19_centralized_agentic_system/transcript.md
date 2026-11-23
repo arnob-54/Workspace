@@ -52,3 +52,11 @@
   timestamps/details, re-verified the canonical profile, checked both queues,
   logged a checkpoint, and committed/pushed with `[opencode]` attribution before
   delivering the report/affirmation.
+- **Arnob (2026-11-23 22:36:15 +06:00):** "Update the readme.md file for the whole repo and push it."
+- **OpenCode:** updated the root README (OpenCode `skills/`/`plugins/` tree
+  entries, agent-specific `update-files` table, auto-update link, real
+  timestamp), committed with `[opencode]` attribution and pushed to origin/main.
+- **Arnob (2026-11-23 22:43:14 +06:00):** "update-files"
+- **OpenCode:** ran the full protocol again — refreshed all workspace files with
+  real timestamps/details, re-verified the profile, checked both queues, logged
+  a checkpoint and committed/pushed with `[opencode]` attribution.

@@ -1,7 +1,7 @@
 # Index — OpenCode
 
 Master index of the agentic workspace.
-**Last updated:** 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run.
+**Last updated:** 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 ## Pointers
 
@@ -48,3 +48,9 @@ Master index of the agentic workspace.
   re-verified the canonical profile (7/7 fields), confirmed 0 messages/0 tasks,
   refreshed every workspace file with real timestamps/details, logged a
   checkpoint, and committed/pushed with `[opencode]` attribution.
+- 2026-11-23 22:36:15 +06:00 — Arnob asked for the whole-repo README update;
+  OpenCode filled the OpenCode tree gaps, documented both agents'
+  `update-files` layouts and pushed with `[opencode]` attribution.
+- 2026-11-23 22:43:14 +06:00 — Arnob issued `Update-files` again. OpenCode
+  re-verified the profile (7/7), confirmed 0 messages/0 tasks, refreshed every
+  workspace file, logged checkpoints and synced with `[opencode]` attribution.

@@ -3,8 +3,9 @@
 **Status:** skeleton implemented 2026-11-19; `Update-files` command defined
 23:01:54; session-scoped auto-update defined 23:09:35 (no scheduler installed);
 remote sync completed by Antigravity on 2026-11-20; skills/plugins scaffolds
-added 2026-11-23 20:42:26 +06:00; latest `Update-files` run 2026-11-23
-20:44:23 +06:00 (profile re-verified, both queues empty, changes synced).
+added 2026-11-23 20:42:26 +06:00; root README updated 2026-11-23 22:36:15
++06:00; latest `Update-files` run 2026-11-23 22:43:14 +06:00 (profile
+re-verified, both queues empty, changes synced).
 
 ## Goal
 
@@ -91,6 +92,10 @@ A centralized, file-based agentic system shared by Arnob's agents:
     `.claude/skills` compatibility) and plugin installation via
     `opencode plugin add`. Official docs: `opencode.ai/docs/skills` and
     `opencode.ai/docs/plugins`.
+16. **Repo-level README** — updated 2026-11-23 22:36:15 +06:00 at Arnob's
+    request: OpenCode's `skills/`/`plugins/`, agent-specific `update-files`
+    file sets and the session-scoped auto-update protocol are documented in
+    `~/Public/Agents/README.md`.
 
-**Last updated:** 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run;
+**Last updated:** 2026-11-23 22:43:14 +06:00 (Asia/Dhaka) — `Update-files` run;
 status refreshed, profile re-verified, both queues empty.
