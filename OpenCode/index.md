@@ -1,7 +1,7 @@
 # Index — OpenCode
 
 Master index of the agentic workspace.
-**Last updated:** 2026-11-23 20:42:26 +06:00 (Asia/Dhaka) — skills/plugins added.
+**Last updated:** 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 ## Pointers
 
@@ -44,3 +44,7 @@ Master index of the agentic workspace.
   match the multi-agent workspace module set, documenting OpenCode V2 skill
   discovery (including `.claude/skills` compatibility) and plugin installation
   via `opencode plugin add`.
+- 2026-11-23 20:44:23 +06:00 — Arnob issued `Update-files`. OpenCode
+  re-verified the canonical profile (7/7 fields), confirmed 0 messages/0 tasks,
+  refreshed every workspace file with real timestamps/details, logged a
+  checkpoint, and committed/pushed with `[opencode]` attribution.

@@ -1,6 +1,6 @@
 # Lessons — OpenCode
 
-Last updated: 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run.
+Last updated: 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 - 2026-11-19: Define commands explicitly in `protocols/` so any agent can pick
   them up from the shared folder, and use the real system clock (Asia/Dhaka)
@@ -11,3 +11,7 @@ Last updated: 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run.
 - 2026-11-20 12:13:51 +06:00: A full refresh is more reliable when current
   state is checked directly — re-read the canonical profile, count queue
   files and inspect git status instead of relying on remembered state.
+- 2026-11-23 20:44:23 +06:00: Verify a peer agent's documentation claims
+  against official docs before mirroring them — this is how the unsupported
+  "Claude Code plugin manifests" claim was filtered out of OpenCode's
+  `plugins/README.md`.

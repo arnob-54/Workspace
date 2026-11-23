@@ -47,3 +47,8 @@
 - **OpenCode:** added `skills/README.md` and `plugins/README.md` with official
   OpenCode V2 discovery/install rules, updated the related workspace files
   and logged the checkpoint for attribution and sync.
+- **Arnob (2026-11-23 20:44:23 +06:00):** "update-files"
+- **OpenCode:** ran the full protocol — refreshed all workspace files with real
+  timestamps/details, re-verified the canonical profile, checked both queues,
+  logged a checkpoint, and committed/pushed with `[opencode]` attribution before
+  delivering the report/affirmation.

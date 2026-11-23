@@ -1,6 +1,6 @@
 # Agent Registry
 
-Last updated: 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run.
+Last updated: 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 | Agent ID | Name | Workspace | Purpose |
 | --- | --- | --- | --- |
@@ -18,3 +18,6 @@ Change log:
 - 2026-11-20 12:13:51 +06:00 — `Update-files` run; roster unchanged (3
   entries). Antigravity has since populated its workspace and pushed the repo,
   but its role is still to be documented by that agent.
+- 2026-11-23 20:44:23 +06:00 — `Update-files` run; roster unchanged (3
+  entries). Antigravity's workspace now includes `skills/` and `plugins/`; its
+  role description remains to be documented by that agent.

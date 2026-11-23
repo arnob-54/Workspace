@@ -39,6 +39,10 @@
   the official V2 docs (skill discovery including `.claude/skills`
   compatibility; plugin CLI install; Claude Code plugin manifests not
   supported) and updated the related workspace files.
+- 2026-11-23 20:44:23 +06:00 — Arnob issued `Update-files`. OpenCode re-verified
+  the canonical profile, confirmed both queues empty, refreshed every workspace
+  file with the real Dhaka timestamp, appended a checkpoint, and committed and
+  pushed with `[opencode]` attribution.
 - **Not yet done:** no live test of the message/task conventions yet (git
   remote was added and pushed by Antigravity on 2026-11-20).
-- **Last updated:** 2026-11-23 20:42:26 +06:00 (Asia/Dhaka).
+- **Last updated:** 2026-11-23 20:44:23 +06:00 (Asia/Dhaka).

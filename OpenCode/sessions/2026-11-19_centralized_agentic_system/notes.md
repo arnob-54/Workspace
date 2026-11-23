@@ -30,3 +30,7 @@
   Claude Code harness). Skills from `.claude/skills` are discovered; Claude
   Code plugin manifests are not a documented OpenCode plugin source. Added
   `skills/` and `plugins/` scaffolds with accurate notes.
+- 2026-11-23 20:44:23 +06:00 — Arnob issued `Update-files`; OpenCode re-read the
+  canonical profile and both queue folders, confirmed 7/7 profile fields match
+  and 0 messages / 0 tasks, then refreshed every workspace file with the real
+  Dhaka timestamp and a dated worklog entry.

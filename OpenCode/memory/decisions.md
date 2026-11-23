@@ -1,6 +1,6 @@
 # Decisions — OpenCode
 
-Last updated: 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run.
+Last updated: 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 - 2026-11-19: Communication is file-based (messages + tasks under
   `agents/`); no central broker — agents scan folders and handle what is
@@ -21,3 +21,7 @@ Last updated: 2026-11-20 12:13:51 +06:00 (Asia/Dhaka) — `Update-files` run.
   pushed with `[opencode]` attribution. Rationale: the shared repo is now
   synced with GitHub, so other agents should see refreshed state and who did
   the work.
+- 2026-11-23 20:44:23 +06:00: Keep the workspace module set aligned across
+  agents (OpenCode's `skills/` and `plugins/` added 20:42:26) while retaining
+  OpenCode V2-specific facts. Rationale: consistency in the shared repo helps
+  other agents; accuracy about tool compatibility comes from official docs.

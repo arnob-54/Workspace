@@ -41,5 +41,5 @@ When Arnob says `Update-files`, follow
 [`protocols/update_files.md`](protocols/update_files.md). During active work,
 follow [`protocols/auto_update.md`](protocols/auto_update.md).
 
-**Last updated:** 2026-11-23 20:42:26 +06:00 (Asia/Dhaka) — added `skills/` and
-`plugins/` scaffolds; refreshed pointers.
+**Last updated:** 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run;
+structure and pointers re-verified; queue status current.

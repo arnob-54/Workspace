@@ -29,3 +29,6 @@ Notes:
 - This folder is the workspace record; to make a skill active here, place it
   under `.opencode/skills/` in this workspace or add `"./skills"` to `skills`
   in an applicable `opencode.jsonc`.
+
+**Last updated:** 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run.
+Current state: 0 workspace skills added yet.

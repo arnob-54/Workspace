@@ -33,3 +33,6 @@ plugin source. Claude Code **skills**, however, are discovered through
 
 This folder records plugins relevant to this workspace; to load one, install
 it with the CLI or configure it as described above.
+
+**Last updated:** 2026-11-23 20:44:23 +06:00 (Asia/Dhaka) — `Update-files` run.
+Current state: 0 plugins recorded yet.
