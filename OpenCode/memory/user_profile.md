@@ -1,7 +1,7 @@
 # User Profile — Arnob
 
 Canonical source: `~/Public/Agents/Original_User/profile.md`.
-**Verified against canonical profile:** 2026-11-23 23:20:38 +06:00 (Asia/Dhaka)
+**Verified against canonical profile:** 2026-11-27 23:30:27 +06:00 (Asia/Dhaka)
 — all seven fields match (legal name, public name, nickname, GitHub handle,
 email, birthday, location). Canonical file unchanged.
 

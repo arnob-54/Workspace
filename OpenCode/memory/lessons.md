@@ -1,6 +1,6 @@
 # Lessons — OpenCode
 
-Last updated: 2026-11-23 23:20:38 +06:00 (Asia/Dhaka) — `Update-files` run.
+Last updated: 2026-11-27 23:30:27 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 - 2026-11-19: Define commands explicitly in `protocols/` so any agent can pick
   them up from the shared folder, and use the real system clock (Asia/Dhaka)
@@ -22,3 +22,6 @@ Last updated: 2026-11-23 23:20:38 +06:00 (Asia/Dhaka) — `Update-files` run.
   config" are different claims — OpenCode speaks MCP natively but expects its
   own `mcp.servers` registration, so check the config format before promising
   drop-in compatibility.
+- 2026-11-27 23:30:27 +06:00: When runs are days apart, read the clock and git
+  state again at execution time — never carry forward the previous run's
+  timestamp or assume the repo is still clean.

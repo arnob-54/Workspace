@@ -3,7 +3,7 @@
 How agents in Arnob's workforce talk to each other through the common folder
 `~/Public/Agents`. Plain markdown + YAML frontmatter — no code changes needed.
 All paths below are relative to the common folder unless noted.
-**Last updated:** 2026-11-23 23:20:38 +06:00 (Asia/Dhaka) — `Update-files` run; conventions unchanged.
+**Last updated:** 2026-11-27 23:30:27 +06:00 (Asia/Dhaka) — `Update-files` run; conventions unchanged.
 
 ## 1. Messages — `agents/messages/`
 

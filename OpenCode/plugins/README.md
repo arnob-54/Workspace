@@ -51,5 +51,6 @@ https://opencode.ai/docs/mcp-servers/
   MCP server can be reused, but its command/URL/headers must be registered in
   OpenCode's format.
 
-**Last updated:** 2026-11-23 23:20:38 +06:00 (Asia/Dhaka) — `Update-files` run
-with a new MCP section. Current state: 0 plugins recorded yet.
+**Last updated:** 2026-11-27 23:30:27 +06:00 (Asia/Dhaka) — `Update-files` run;
+discovery, compatibility and MCP notes re-verified unchanged. Current state:
+0 plugins recorded yet.

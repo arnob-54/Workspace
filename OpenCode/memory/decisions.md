@@ -1,6 +1,7 @@
 # Decisions — OpenCode
 
-Last updated: 2026-11-23 23:20:38 +06:00 (Asia/Dhaka) — `Update-files` run.
+Last updated: 2026-11-27 23:30:27 +06:00 (Asia/Dhaka) — `Update-files` run;
+no new decisions since 2026-11-23 23:20:38 +06:00.
 
 - 2026-11-19: Communication is file-based (messages + tasks under
   `agents/`); no central broker — agents scan folders and handle what is

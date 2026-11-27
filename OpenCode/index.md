@@ -1,7 +1,7 @@
 # Index — OpenCode
 
 Master index of the agentic workspace.
-**Last updated:** 2026-11-23 23:20:38 +06:00 (Asia/Dhaka) — `Update-files` run.
+**Last updated:** 2026-11-27 23:30:27 +06:00 (Asia/Dhaka) — `Update-files` run.
 
 ## Pointers
 
@@ -58,3 +58,8 @@ Master index of the agentic workspace.
   OpenCode checked the official V2 docs, added an MCP section to
   `plugins/README.md`, recorded the findings in decisions/lessons/session
   records, and ran a full `Update-files` refresh with `[opencode]` attribution.
+- 2026-11-27 23:30:27 +06:00 — Arnob issued `Update-files` again. OpenCode read
+  the fresh Dhaka clock, re-verified the canonical profile (7/7 fields),
+  confirmed 0 messages/0 tasks and an unchanged clean git state, refreshed every
+  workspace file, logged a checkpoint and committed/pushed with `[opencode]`
+  attribution.

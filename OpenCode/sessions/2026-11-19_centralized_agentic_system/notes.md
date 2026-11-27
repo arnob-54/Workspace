@@ -47,3 +47,7 @@
   `.claude-plugin/plugin.json`, `.claude/commands/` and `.claude/agents/` have
   no documented compatibility. Recorded in `plugins/README.md`, decisions and
   lessons during this run.
+- 2026-11-27 23:30:27 +06:00 — Arnob issued `Update-files`. OpenCode took a
+  fresh clock reading (no stale timestamp reuse), re-read the canonical profile
+  and both queue folders, found git clean at `78c83fe` with no peer changes,
+  refreshed every workspace file and prepared the `[opencode]` sync.
